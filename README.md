@@ -1,2 +1,50 @@
+project name: password-generator-by-solomon-tegegne
+Date: 2021-01-23
+Author: Solomon Tegegne and University of Utah Bootcamp
 # password-generator-by-solomon-tegegne
 A random password generator application for education purpose
+## Description
+
+This script generates a random password based on the selected criteria by the user. The password can contain lowercase and uppercase letters, numbers, and symbols.
+
+## explanation of the code
+
+# CodeWords
+CodeWords is an object that maps each character in the generated password to a word or phrase that corresponds to the NATO phonetic alphabet or the name of the symbol.
+
+# Variables
+lowerCase: a string containing all lowercase letters
+upperCase: a string containing all uppercase letters
+number: a string containing all numbers
+symbol: a string containing all symbols
+codeWords: an object containing mappings for each character in the generated password
+lowerEl: an element that represents the checkbox for lowercase letters
+upperEl: an element that represents the checkbox for uppercase letters
+numberEl: an element that represents the checkbox for numbers
+symbolEl: an element that represents the checkbox for symbols
+lengthEl: an element that represents the input for password length
+passwordEl: an element that represents the output for the generated password
+titleEl: an element that represents the title of the webpage
+originalValue: a string containing the original value of the main heading element of the webpage
+pwdMode: a boolean variable that tracks whether the title element is in password mode or not
+# Functions
+displayMessage(): a function that toggles the display of asterisks in the title element
+generatePassword(): a function that generates a random password based on the selected criteria
+writePassword(): a function that writes the generated password to the password element and also displays the code words for each character in the password
+# Event Listeners
+generateBtn: an event listener that listens for clicks on the "Generate Password" button and calls the writePassword() function. It also checks if the password length is at least 8 characters and if at least one character type is selected. If these conditions are not met, an alert is displayed.
+Usage
+
+## Usage
+
+To use this application, click the "Generate Password" button and follow the prompts. The password must be at least 8 characters long and must contain at least one character type.
+
+## installation
+no installation required
+
+## Credits
+
+ with the help of youtube video by traversi media was used to create this application https://www.youtube.com/watch?v=duNmhKgtcsI&t=173s
+
+## License
+no license required
