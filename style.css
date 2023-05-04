@@ -21,7 +21,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 .wrapper {
   padding-top: 30px;
@@ -57,8 +56,8 @@ header {
   margin: 0;
   padding: 0;
   font-size: 1.2rem;
-  font-weight: 400;
-  color: #c0c7cf;
+  font-weight: 500;
+  color: #848c95;
 }
 .length {
   display: flex;
@@ -69,7 +68,7 @@ label {
   padding: 0;
   font-size: 1rem;
   font-weight: 300;
-  color: #c0c7cf;
+  color: #848c95;
 }
 .card-header::after {
   content: " ";

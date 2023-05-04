@@ -79,8 +79,8 @@ generateBtn.addEventListener("click", () => {
   const hasNumber = numberEl.checked;
   const hasSymbol = symbolEl.checked;
 
-  if (length < 8 || !hasLower && !hasUpper && !hasNumber && !hasSymbol) {
-    alert("Please select at least one character type and a password length of 8 characters or more.");
+  if (length < 8 || length > 128 || !hasLower && !hasUpper && !hasNumber && !hasSymbol) {
+    alert("Please select at least one character type and a minimum password length of 8 characters or not more than 128.");
     return;
   }
 });
