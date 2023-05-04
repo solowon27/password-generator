@@ -49,6 +49,7 @@ header {
 }
 .checkbox {
   display: flex;
+  width: 100%;
   border: 1px solid #c0c7cf27;
   justify-content: space-evenly;
 }
